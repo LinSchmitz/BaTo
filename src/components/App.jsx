@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './styles.css';
 
 const initialEvents = [
   { id: 1, title: 'سالگرد آشنایی', date: '2025-08-15' },
@@ -32,9 +31,7 @@ export default function App() {
         padding: 20,
       }}
     >
-      <h2 style={{ textAlign: 'center', color: '#d6336c' }}>
-        پلنر عاشقانه کاپل‌ها
-      </h2>
+      <h2 style={{ textAlign: 'center', color: '#d6336c' }}>خودم و خودش </h2>
 
       <div style={{ marginBottom: 20 }}>
         <input
